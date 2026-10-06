@@ -80,6 +80,13 @@
             <button id="check-verification-btn" class="w-full py-2.5 bg-pink-600 hover:bg-pink-700 text-white font-bold rounded-xl text-xs shadow transition">I've Verified My Email - Continue</button>
             <button id="resend-verification-btn" class="w-full py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold rounded-xl text-xs transition">Resend Verification Email</button>
         </section>
+        <!-- Password Creation Section (Hidden by default) -->
+<div id="create-password-container" style="display: none;">
+  <h3>Set Your Password</h3>
+  <input type="password" id="new-password" placeholder="Enter new password" required />
+  <input type="password" id="confirm-password" placeholder="Confirm new password" required />
+  <button id="save-password-btn">Save Password & Continue</button>
+</div>
 
         <!-- Onboarding & Edit Profile Section -->
         <section id="onboarding-section" class="hidden max-w-2xl mx-auto bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-pink-100 space-y-6">
